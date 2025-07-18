@@ -39,7 +39,7 @@ O objetivo central consiste em aplicar uma abordagem algorítmica capaz de recon
 - `python 3.x` - linguagem base;
 - `pandas`, `numpy` – manipulação e tratamento de dados;
 - `matplotlib` – geração de gráficos e visualizações (opcional);  
-- `scikit-learn`, `tensorflow.keras,`– construção e avaliação dos modelos de aprendizado supervisionado.
+- `scikit-learn`, `tensorflow.keras`– construção e avaliação dos modelos.
 
 ## Organização do Repositório
 

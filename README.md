@@ -2,9 +2,7 @@
 
 Este projeto apresenta a implementação de um método para a identificação automática de entidades nomeadas em textos, utilizando técnicas consolidadas de Processamento de Linguagem Natural (PLN) e Aprendizado de Máquina. O núcleo da aplicação baseia-se em uma arquitetura de rede neural recorrente com unidades LSTM (Long Short-Term Memory), configurada para interpretar, segmentar e classificar tokens segundo o paradigma NER (Named Entity Recognition).
 
-O objetivo central consiste em aplicar uma abordagem algorítmica capaz de reconhecer entidades previamente definidas — como nomes próprios, localizações geográficas e instituições — utilizando para tal um corpus anotado em formato padronizado.
-
----
+O objetivo central consiste em aplicar uma abordagem algorítmica capaz de reconhecer entidades previamente definidas, como nomes próprios, localizações geográficas e instituições, utilizando para tal um corpus anotado em formato padronizado.
 
 ## Objetivos da Aplicação
 
@@ -13,8 +11,6 @@ O objetivo central consiste em aplicar uma abordagem algorítmica capaz de recon
 - Avaliar o desempenho do modelo por meio de métricas específicas para tarefas sequenciais, como F1-score.
 - Aplicar técnicas de embeddings e alinhamento vetorial com `pad_sequences` para uniformização das entradas.
 - Validar a robustez do modelo em textos não previamente vistos.
-
----
 
 ## Base de Dados
 
@@ -28,8 +24,6 @@ O objetivo central consiste em aplicar uma abordagem algorítmica capaz de recon
 
 - **Tipo de tarefa:** Reconhecimento de Entidades Nomeadas com codificação BIO.
 
----
-
 ## Etapas Metodológicas
 
 1. Leitura estruturada e sanitização do arquivo `ner.csv`.
@@ -40,8 +34,6 @@ O objetivo central consiste em aplicar uma abordagem algorítmica capaz de recon
 6. Avaliação do desempenho por meio de métricas de sequência (como `precision`, `recall` e `F1-score`).
 7. Visualização das predições em exemplos reais, a fim de verificar a acurácia qualitativa do modelo.
 
----
-
 ## Bibliotecas Utilizadas
 
 - **Linguagem Base:** Python 3.x
@@ -50,9 +42,7 @@ O objetivo central consiste em aplicar uma abordagem algorítmica capaz de recon
 - **Avaliação:** `scikit-learn`
 - **Visualização:** `matplotlib` (opcional)
 
----
-
-## Estrutura do Projeto
+## Organização do Repositório
 
 ```bash
 ├── data/
